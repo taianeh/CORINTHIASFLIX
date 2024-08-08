@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background:black;
+    margin: 0px;
+    font-family:  "Ga Maamli", sans-serif;
+    margin-bottom: 100px;
+     
+}
+
+header{
+    border-bottom: solid 2px rgb(255, 1, 1);
+    padding: 20px;
+    font-size: 50px;
+    color:rgb(238, 9, 9)
+}
+
+.chamada {
+    background: rgb(227, 28, 28);
+    padding-bottom: 80px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1{
+    font-size: 45px; 
+}
+
+
+p{
+    font-size: 28px;
+}
+
+
+
+.categorias-videos{
+    display: flex;
+    overflow-x: auto;
+    gap:10px;
+}
+
+
+.categorias{
+    padding-left:20px ;
+    padding-right:20px ;
+    margin-top: 50px;
+}
+
+.cateorias-videos img{
+    opacity:0.5;
+}
+
+
+.categorias-videos img:hover{
+    opacity:1.0;
+    border:1px solid purple;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria h2{
+    color:rgb(238, 9, 9)
+
+}
